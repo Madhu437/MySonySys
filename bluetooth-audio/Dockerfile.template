@@ -30,3 +30,5 @@ COPY start.sh /usr/src/
 RUN chmod +x /usr/src/start.sh
 
 CMD /usr/src/start.sh
+
+COPY asounds.conf /etc/
